@@ -1,0 +1,21 @@
+{
+    "name": "alves/n2_web",
+    "authors": [
+        {
+            "name": "Davi Alves",
+            "email": "alvesdelima.davi@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "controller/",
+            "Model\\": "model/",
+            "Database\\": "connection/",
+            "Entity\\": "entity/",
+            "Enum\\": "model/queries/"
+        }
+    }
+}
